@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "unBgswKIwsw=",
+  "success": true,
+  "projectFilePath": "C:\\ABB\\TEMPO\\PC SDK exemple\\SimpleConsolePCSDK\\SimpleConsolePCSDK\\SimpleConsolePCSDK.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\freklan\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.4\\system.configuration.configurationmanager.9.0.4.nupkg.sha512",
+    "C:\\Users\\freklan\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.4\\system.diagnostics.performancecounter.9.0.4.nupkg.sha512",
+    "C:\\Users\\freklan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\freklan\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

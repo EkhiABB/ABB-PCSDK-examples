@@ -1,0 +1,128 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SimpleConsolePCSDK/1.0.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "9.0.4",
+          "System.Diagnostics.PerformanceCounter": "9.0.4",
+          "ABB.Robotics.Controllers.PC": "25.1.11133.0",
+          "RobotStudio.Services.RobApi.Desktop": "25.1.11133.0",
+          "RobotStudio.Services.RobApi": "25.1.11133.0"
+        },
+        "runtime": {
+          "SimpleConsolePCSDK.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/9.0.4": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "9.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/9.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {},
+      "System.Security.Cryptography.ProtectedData/9.0.4": {
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "ABB.Robotics.Controllers.PC/25.1.11133.0": {
+        "runtime": {
+          "ABB.Robotics.Controllers.PC.dll": {
+            "assemblyVersion": "25.1.11133.0",
+            "fileVersion": "25.1.11133.0"
+          }
+        }
+      },
+      "RobotStudio.Services.RobApi.Desktop/25.1.11133.0": {
+        "runtime": {
+          "RobotStudio.Services.RobApi.Desktop.dll": {
+            "assemblyVersion": "25.1.11133.0",
+            "fileVersion": "25.1.11133.0"
+          }
+        }
+      },
+      "RobotStudio.Services.RobApi/25.1.11133.0": {
+        "runtime": {
+          "RobotStudio.Services.RobApi.dll": {
+            "assemblyVersion": "25.1.11133.0",
+            "fileVersion": "25.1.11133.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimpleConsolePCSDK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Configuration.ConfigurationManager/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dvjqKp+2LpGid6phzrdrS/2mmEPxFl3jE1+L7614q4ZChKbLJCpHXg6sBILlCCED1t//EE+un/UdAetzIMpqnw==",
+      "path": "system.configuration.configurationmanager/9.0.4",
+      "hashPath": "system.configuration.configurationmanager.9.0.4.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dPtvbm/WuXQHFHzi/lC0bO+AJAEx5m/Gdk9A0JSXjAD/AQtXKCEOInP9VhADovaf595pjCGV0jqRFzkqDUzrqw==",
+      "path": "system.diagnostics.performancecounter/9.0.4",
+      "hashPath": "system.diagnostics.performancecounter.9.0.4.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o94k2RKuAce3GeDMlUvIXlhVa1kWpJw95E6C9LwW0KlG0nj5+SgCiIxJ2Eroqb9sLtG1mEMbFttZIBZ13EJPvQ==",
+      "path": "system.security.cryptography.protecteddata/9.0.4",
+      "hashPath": "system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
+    },
+    "ABB.Robotics.Controllers.PC/25.1.11133.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RobotStudio.Services.RobApi.Desktop/25.1.11133.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RobotStudio.Services.RobApi/25.1.11133.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

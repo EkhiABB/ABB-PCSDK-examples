@@ -1,0 +1,7 @@
+MODULE testmodule
+    
+    PROC TestProc()
+        TPWrite "hello";
+    ENDPROC
+    
+ENDMODULE

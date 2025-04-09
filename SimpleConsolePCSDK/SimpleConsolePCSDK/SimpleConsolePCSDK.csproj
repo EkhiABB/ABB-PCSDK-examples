@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.4" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ABB.Robotics.Controllers.PC">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\PCSDK 2025\ABB.Robotics.Controllers.PC.dll</HintPath>
+    </Reference>
+    <Reference Include="RobotStudio.Services.RobApi">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\PCSDK 2025\RobotStudio.Services.RobApi.dll</HintPath>
+    </Reference>
+    <Reference Include="RobotStudio.Services.RobApi.Desktop">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ABB\SDK\PCSDK 2025\RobotStudio.Services.RobApi.Desktop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="testmodule.modx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
