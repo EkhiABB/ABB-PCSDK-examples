@@ -9,4 +9,4 @@ Controllers need to be in AUTO mode and Motors ON state
 
 Defaut User authentication is used
 
-Files access, and remote start grants should be added to this user
+Remote file access and remote start grants should be added to this user
